@@ -1,0 +1,48 @@
+{
+  "root": true,
+  "api": {
+    "projectId": "xdm2fqtm",
+    "dataset": "production"
+  },
+  "project": {
+    "name": "danieldozie.dev"
+  },
+  "plugins": [
+    "@sanity/dashboard",
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "media",
+    "dashboard-widget-cats",
+    "dashboard-widget-document-list",
+    "order-documents",
+    "@sanity/code-input",
+    "asset-source-screenshotone"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    },
+    {
+      "implements": "part:@sanity/form-builder/input/image/asset-sources",
+      "path": "./parts/assetSources.js"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./deskStructure.js"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "./dashboardConfig.js"
+    }
+  ]
+}

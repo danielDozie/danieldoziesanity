@@ -1,0 +1,37 @@
+{
+  "name": "danieldoziesanity",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Daniel Dozie <placmedia@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.32.0",
+    "@sanity/code-input": "^2.32.0",
+    "@sanity/core": "^2.32.0",
+    "@sanity/dashboard": "^2.32.0",
+    "@sanity/default-layout": "^2.32.0",
+    "@sanity/default-login": "^2.32.0",
+    "@sanity/desk-tool": "^2.32.0",
+    "@sanity/image-url": "^1.0.1",
+    "@sanity/vision": "^2.32.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "react-icons": "^4.3.1",
+    "sanity-plugin-asset-source-screenshotone": "^1.0.8",
+    "sanity-plugin-dashboard-widget-cats": "^1.0.0",
+    "sanity-plugin-dashboard-widget-document-list": "^0.0.13",
+    "sanity-plugin-media": "^1.4.3",
+    "sanity-plugin-order-documents": "^0.0.20",
+    "styled-components": "^5.2.0"
+  }
+}
