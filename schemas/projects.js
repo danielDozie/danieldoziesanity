@@ -47,12 +47,18 @@ export default {
                     type: 'block',
                 }
             ]
-        }
+        },
+        {
+            name: "order",
+            title: "Order",
+            type: "number",
+            hidden: true,
+        },
     ],
     preview: {
         select: {
             title: 'title',
-            media: 'image'
+            //media: 'image'
         }
     }
 }

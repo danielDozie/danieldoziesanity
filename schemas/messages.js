@@ -1,6 +1,6 @@
 import {FcInvite} from 'react-icons/fc'
 export default {
-    text: 'Messages',
+    title: 'Messages',
     name: 'messages',
     type: 'document',
     icon: FcInvite,
